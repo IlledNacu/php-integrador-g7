@@ -1,0 +1,12 @@
+/* Estilos para la portada */
+.jumbotron {
+    background-image: url(imagenes_integrador/hawaii.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white; /* Cambia el color del texto si es necesario */
+}
+
+/* Estilo para alinear el texto a la derecha */
+.text-right {
+    text-align: right;
+}
