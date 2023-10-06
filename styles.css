@@ -1,12 +1,35 @@
-/* Estilos para la portada */
-.jumbotron {
-    background-image: url(imagenes_integrador/hawaii.jpg);
+.cover{
+    background-image: url('imagenes_integrador/hawaii.jpg');
     background-size: cover;
     background-position: center;
-    color: white; /* Cambia el color del texto si es necesario */
+    color: white;
 }
 
-/* Estilo para alinear el texto a la derecha */
-.text-right {
-    text-align: right;
+.cover-overlay{
+    background-color: hsla(0, 0%, 0%, 50%);
+}
+
+.cover h1, .cover p{
+    font-weight:normal;
+}
+
+.cover .col-md-6{
+    margin: 6em 0 4em 0;
+}
+
+.card-text span{
+    font-weight: bold;
+}
+
+.box-text{
+    padding-right: 1em;
+    padding-top: 1em;
+}
+
+footer{
+    background-color: rgb(8, 59, 90);
+}
+
+footer a{
+    text-decoration: none;
 }
